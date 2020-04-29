@@ -21,7 +21,10 @@ function employeeSearch() {
         message: "Please enter the last name of employee:",
         type: "input"
     },
-    ])
+    ]).then(function (){
+        console.log();
+        menu();
+    });
     
 }
 
